@@ -608,7 +608,7 @@ img.school-logo {
   width: 3.27rem;
 }
 
-section.formation-box {
+section.about-box {
   display: flex;
   /* flex-direction: row; */
   align-items: center;
@@ -621,7 +621,7 @@ figure.school-img {
   margin-bottom: 4.5rem;
 }
 
-div.formation-year {
+div.about-year {
   display: flex;
   flex-direction: column;
   gap: 4rem;

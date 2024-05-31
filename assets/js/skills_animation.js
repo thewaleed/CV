@@ -1,12 +1,12 @@
 let skillTitle = document.querySelector("#skill-title");
 
-let prefix = "I work with ";
+let prefix = "I work as ";
 let skills = [
-  "HTML & CSS",
-  "JavaScript",
-  "React",
-  "Typescript",
-  "PHP & MySQL",
+  "DevOps",
+  "Security Engineer",
+  "System Administrator",
+  "Database admin",
+  "help desk specialist",
 ].map((s) => `${s}.`);
 const delay = 2;
 const step = 1;
