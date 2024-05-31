@@ -100,18 +100,6 @@ const handleSecretClick = (event) => {
 const btn = buttonElement.addEventListener("click", handleSecretClick);
 
 
-// When the user scrolls down 20px from the top of the page, show the button
-window.onscroll = () => {
-  scrollFunction();
-};
-
-const scrollFunction = () => {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    homeButton.style.display = "block";
-  } else {
-    homeButton.style.display = "none";
-  }
-};
 
 // When the user clicks on the button, scroll top + go back to the home menu
 const topFunction = () => {
