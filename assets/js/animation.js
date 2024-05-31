@@ -99,10 +99,6 @@ const handleSecretClick = (event) => {
 
 const btn = buttonElement.addEventListener("click", handleSecretClick);
 
-// ——————————————————————————————————————————————————
-// BACK TO HOME PAGE BUTTON
-// ——————————————————————————————————————————————————
-let homeButton = document.getElementById("back-home");
 
 // When the user scrolls down 20px from the top of the page, show the button
 window.onscroll = () => {
