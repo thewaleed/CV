@@ -729,6 +729,10 @@ a.linkedin-link i {
   letter-spacing: 0;
 }
 
+/* ul {
+  margin-bottom: -0.5em;
+} */
+
 :is(.linkedin-link, div.inner h1):hover {
   color: transparent;
   background: linear-gradient(
