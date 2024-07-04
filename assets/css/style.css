@@ -737,9 +737,8 @@ a.linkedin-link i {
   color: transparent;
   background: linear-gradient(
     315deg,
-    rgb(236, 160, 255),
-    rgb(170, 178, 255),
-    rgb(132, 255, 201)
+    rgb(250, 7, 3),
+    rgb(1, 46, 245)
   );
   -webkit-background-clip: text;
   background-clip: text;
