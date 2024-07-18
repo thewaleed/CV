@@ -64,11 +64,12 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 let phrases = [
-  "Bienvenue !",
-  "Je m'appelle Karen",
-  "développeuse web front-end",
-  "webdesigner",
-  "découvrez mon profil !",
+  "DevOps Engineer",
+  "Cloud DevOps Engineer",
+  "Infrastructure Engineer",
+  "Systems Engineer",
+  "Network Engineer",
+  "Help Desk",
 ];
 
 const el = document.querySelector(".text-animation");
