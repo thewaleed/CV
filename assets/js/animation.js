@@ -69,7 +69,6 @@ let phrases = [
   "Infrastructure Engineer",
   "Systems Engineer",
   "Network Engineer",
-  "Help Desk",
 ];
 
 const el = document.querySelector(".text-animation");
@@ -78,7 +77,7 @@ let counter = 0;
 
 const next = () => {
   fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 600);
+    setTimeout(next, 4000);
   });
   counter = (counter + 1) % phrases.length;
 };
