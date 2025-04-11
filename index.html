@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <title>The Waleed - Gray Hat Hacker</title>
+  <title data-translate="pageTitle"></title>
   <!-- Style -->
   <link rel="stylesheet" href="assets/css/normalize.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
@@ -16,6 +16,12 @@
 </head>
 
 <body class="is-preload">
+  <!-- Add language switcher element -->
+  <div id="lang-switcher">
+      <button data-lang="en">EN</button>
+      <button data-lang="fr">FR</button>
+  </div>
+
   <!-- Wrapper -->
   <div id="wrapper">
     <header id="header">
@@ -24,38 +30,31 @@
       </div>
       <div class="content">
         <div class="inner">
-          <h1>Waleed AL-Idrissi</h1>
+          <h1>Walid Idrissi</h1>
           <div class="container-animation">
             <div class="text-animation"></div>
           </div>
-          <button id="secret-code">Decode the message</button>
+          <button id="secret-code" data-translate="decodeButton"></button>
         </div>
         <nav>
           <ul id="navbox">
-            <li class="nav-button"><a href="#about">about</a></li>
-            <li class="nav-button"><a href="#experience">Experience</a></li>
-            <li class="nav-button"><a href="#projects">Projects</a></li>
-            <li class="nav-button"><a href="#skills" id="skillbtn">Skills</a></li>
-            <li class="nav-button"><a href="#contact" id="contactbtn">Contact</a></li>
+            <li class="nav-button"><a href="#about" data-translate="navAbout"></a></li>
+            <li class="nav-button"><a href="#experience" data-translate="navExperience"></a></li>
+            <li class="nav-button"><a href="#projects" data-translate="navProjects"></a></li>
+            <li class="nav-button"><a href="#skills" id="skillbtn" data-translate="navSkills"></a></li>
+            <li class="nav-button"><a href="#contact" id="contactbtn" data-translate="navContact"></a></li>
           </ul>
         </nav>
     </header>
     <div id="main">
       <!-- about -->
       <article id="about">
-        <h2 class="major">about</h2>
+        <h2 class="major" data-translate="aboutTitle"></h2>
         <section class="about-box">
-          <!-- <p>
-            Highly talented and customer-centric professional with strong support experience,
-            trained for troubleshooting, analyzing and resolving complex problems.
-            the ability to provide strategic guidance regarding IT technology and infrastructural enhancements to clients and organizations.
-          </p> -->
-          <p>
-            Moroccan professional IT Coordinator with over 5 years' experience in maintaining systems and networks. Skilled in performing both administrative and technical tasks to ensure efficiency and functionality. Known for a problem-solving attitude, great attention to detail, and outstanding communication skills.
-          </p>
+          <p data-translate="aboutText"></p>
         </section>
         <div class="soft-skills-category">
-          <h3>certificates</h3>
+          <h3 data-translate="certificatesTitle"></h3>
         </div>
         <section class="skillbox">
           <div class="skill-img" id="soft-skills">
@@ -68,7 +67,7 @@
       </article>
       <!-- EXPERIENCE -->
       <article id="experience">
-        <h2 class="major">EXPERIENCE</h2>
+        <h2 class="major" data-translate="experienceTitle"></h2>
         <section class="workbox">
 
           <div class="workbox-block">
@@ -77,19 +76,19 @@
             </div>
             <div class="experience-text">
               <p>
-              <h4 class="title-job">CUSTOMER SERVICE ADVISOR</h4>
+              <h4 class="title-job" data-translate="jobTitleCSA"></h4>
               <ul>
-                <li class="job-mission">Served as customers' primary point of contact through calls, social media, and email.</li>
-                <li class="job-mission">Provided professional advice and support to customers, ensuring high satisfaction levels.</li>
+                <li class="job-mission" data-translate="jobMissionCSA1"></li>
+                <li class="job-mission" data-translate="jobMissionCSA2"></li>
               </ul>
               </p>
               <a href="https://drive.google.com/file/d/1nx2ABm3fsLx8ZDhIIlxflifxFGcCD4dL/view?usp=sharing" class="linkedin-link" target="_blank">
-                <i>Experiance certificate</i><span class="arrow">&#8811;</span></a>
+                <i data-translate="experienceCertLink"></i><span class="arrow">&#8811;</span></a>
             </div>
             <div class="experience-infos">
               <span id="qualiExtra">Souq.com<br>
-                <time datetime="2023-08">2015 &#8658;</time>
-                <time datetime="2024-01">2020</time>
+                <time>2015 &#8658;</time>
+                <time>2020</time>
               </span>
             </div>
           </div>
@@ -99,19 +98,19 @@
             </div>
             <div class="experience-text">
               <p>
-              <h4 class="title-job">help desk specialist</h4>
+              <h4 class="title-job" data-translate="jobTitleHDS1"></h4>
               <ul>
-                <li>Installed and configured programs, operation systems, and hardware.</li>
-                <li>Troubleshooted systems and performed data restoration.</li>
-                <li>Monitored network performance to ensure reliability.</li>
+                <li data-translate="jobMissionHDS1_1"></li>
+                <li data-translate="jobMissionHDS1_2"></li>
+                <li data-translate="jobMissionHDS1_3"></li>
               </ul>
               <a href="https://drive.google.com/file/d/1-kDV48nOUl4ekdeIOFJQEkNqC1pWXvCN/view?usp=drive_link" class="linkedin-link" target="_blank">
-                <i>Experiance certificate</i><span class="arrow">&#8811;</span></a>
+                <i data-translate="experienceCertLink"></i><span class="arrow">&#8811;</span></a>
             </div>
             <div class="experience-infos">
               <span id="freelance">Amazon.com<br>
-                <time datetime="2022-01">2021 &#8658;</time>
-                <time datetime="2020-01">2023</time></span>
+                <time>2021 &#8658;</time>
+                <time>2023</time></span>
             </div>
           </div>
           <div class="workbox-block">
@@ -120,20 +119,20 @@
             </div>
             <div class="experience-text">
               <p>
-              <h4 class="title-job">network administrator</h4>
+              <h4 class="title-job" data-translate="jobTitleNA"></h4>
                 <ul>
-                  <li>Administer database servers.</li>
-                  <li>Implement firewalls and antivirus software.</li>
-                  <li>Create and maintain the documentation process.</li>
+                  <li data-translate="jobMissionNA1"></li>
+                  <li data-translate="jobMissionNA2"></li>
+                  <li data-translate="jobMissionNA3"></li>
                 </ul>
               </p>
               <a href="https://drive.google.com/file/d/13DxUQrrzISQ_d0V89fOiiE48e6SICXZK/view?usp=sharing" class="linkedin-link" target="_blank">
-                <i>Experiance certificate</i><span class="arrow">&#8811;</span></a>
+                <i data-translate="experienceCertLink"></i><span class="arrow">&#8811;</span></a>
             </div>
             <div class="experience-infos">
               <span id="scarabee-bio">Manar Care<br>
-                <time datetime="2020-06">2020 &#8658;</time>
-                <time datetime="2021-07">2021</time></span>
+                <time >2020 &#8658;</time>
+                <time >2021</time></span>
             </div>
           </div>
           <div class="workbox-block">
@@ -142,23 +141,24 @@
             </div>
             <div class="experience-text">
               <p>
-              <h4 class="title-job">help desk specialist</h4>
+              <h4 class="title-job" data-translate="jobTitleHDS2"></h4>
                 <ul>
-                  <li>Provided comprehensive troubleshooting for systems and hardware.</li>
-                  <li>Coordinated the setup and integration of personal devices with the company’s IT systems.</li>
+                  <li data-translate="jobMissionHDS2_1"></li>
+                  <li data-translate="jobMissionHDS2_2"></li>
                 </ul>
               </p>
             </div>
             <div class="experience-infos">
               <span id="nils-avril">Sado Development<br>
-                <time datetime="2017-06">2023 &#8658;</time><time datetime="2018-01"> 2024</time></span>
+                <time>2023 &#8658;</time>
+                <time> 2024</time></span>
             </div>
           </div>
         </section>
       </article>
       <!-- projects -->
       <article id="projects">
-        <h2 class="major">projects</h2>
+        <h2 class="major" data-translate="projectsTitle"></h2>
         <section class="workbox">
 
           <div class="workbox-block">
@@ -167,26 +167,18 @@
             </div>
             <div class="experience-text">
               <p>
-              <h4 class="title-job">Virtualization and Containerization</h4>
-              <li>
-              <em class="job-mission">Installed and configured Proxmox VE in a test environment.
-                Successfully set up and managed multiple virtual machines and containers using Proxmox.
-                Experienced in creating, configuring, and optimizing virtual environments for various applications and services.</em>
+              <h4 class="title-job" data-translate="projectTitleVirt"></h4>
+              <em class="job-mission" data-translate="projectDescVirt"></em>
               </p>
             </div>
-          </li>
           </div>
           <div class="workbox-block">
             <div class="work-img">
               <img class="circle-logo" src="./images//project_img/docker.png" loading="lazy">
             </div>
             <div class="experience-text">
-              <p>
-              <li>
-              <em class="job-mission">Implemented and managed containerized applications using Docker and Kubernetes.</em>
-              </p>
+              <em class="job-mission" data-translate="projectDescDocker"></em>
             </div>
-          </li>
           </div>
           <div class="workbox-block">
             <div class="work-img">
@@ -194,8 +186,8 @@
             </div>
             <div class="experience-text">
               <p>
-              <h4 class="title-job">Cloud</h4>
-              <em class="job-mission">Worked with Azure, AWS, and Cloudflare for cloud infrastructure management.</em>
+              <h4 class="title-job" data-translate="projectTitleCloud"></h4>
+              <em class="job-mission" data-translate="projectDescCloud"></em>
               </p>
             </div>
           </div>
@@ -205,14 +197,13 @@
             </div>
             <div class="experience-text">
               <p>
-              <h4 class="title-job">security</h4>
-              <em class="job-mission">Gained extensive experience with Kali OS and its tools
-                Successfully completed multiple challenges on Hack The Box, earning several achievements.</em>
+              <h4 class="title-job" data-translate="projectTitleSecurity"></h4>
+              <em class="job-mission" data-translate="projectDescSecurity"></em>
               </p>
               <a href="https://app.hackthebox.com/profile/1407278" class="linkedin-link" target="_blank">
-                <i>visit my HTB profile</i><span class="arrow">&#8811;</span></a>
+                <i data-translate="htbProfileLink"></i><span class="arrow">&#8811;</span></a>
               <a href="http://sheblvgwdh352i6tlo3cw66lghvouyqmdxgxvqrzojdxbtgv2dmxtgyd.onion" class="linkedin-link" target="_blank">
-                <i>visit my website in the DARKWEB</i><span class="arrow">&#8811;</span></a>
+                <i data-translate="darkwebLink"></i><span class="arrow">&#8811;</span></a>
             </div>
           </div>
         </section>
@@ -224,7 +215,7 @@
         </div>
 
         <div class="other-tools">
-          <h3>Professional Skills.</h3>
+          <h3 data-translate="skillsTitleProf"></h3>
         </div>
         <section class="skillbox">
           <figure class="skill-img" id="dev-tools">
@@ -241,7 +232,7 @@
         </section>
 
         <div class="soft-skills-category">
-          <h3>Soft Skills</h3>
+          <h3 data-translate="skillsTitleSoft"></h3>
         </div>
         <section class="skillbox">
           <div class="skill-img" id="soft-skills">
@@ -259,7 +250,7 @@
         <div>
           <h3 id="contact-title"></h3>
         </div>
-        <h2 class="major">Contact</h2>
+        <h2 class="major" data-translate="contactTitle"></h2>
         <div class="contact-box">
           <img class="contact-box" src="./images/cv_photo.png" alt="photo profil">
           <div class="contact-text">
@@ -275,24 +266,26 @@
                   target="_blank"></a>
               </li>
               <li>
-                <a href="#" class="icon brands fa-github"></a>
+                <a href="https://github.com/thewaleed" class="icon brands fa-github" target="_blank"></a>
               </li>
             </ul>
             <div class="contact-link">
               <a class="contact-email" href="mailto:job@thewaleed.me">job@thewaleed.me</a>
               <a class="contact-map" href="https://maps.app.goo.gl/BaxZLFegH8MBEkHd7" target="_blank">Casablanca, MA</a>
               <a class="contact-linkedin" href="https://www.linkedin.com/in/waleed-edrissi/"
-                target="_blank">Linkedin Profile</a>
-              <a class="contact-github" href="https://github.com/thewaleed" target="_blank">Github Profile</a>
+                target="_blank" data-translate="contactLinkedin"></a>
+              <a class="contact-github" href="https://github.com/thewaleed" target="_blank" data-translate="contactGithub"></a>
             </div>
           </div>
           <div class="download">
-            <button type="button" id="download-pdf"><a href="./docs/CV.pdf" attributes-list
-                download>CV en PDF</a></button>
+            <button type="button" id="download-pdf"><a href="./docs/CV-en.pdf" attributes-list
+                download >CV EN PDF</a></button>
+            <button type="button" id="download-pdf"><a href="./docs/CV-fr.pdf" attributes-list
+              download >CV FR PDF</a></button>
           </div>
           <div class="download">
             <button type="button" id="download-pdf"><a href="https://ai.thewaleed.me" target="_blank" attributes-list
-              download>Talk To Anni "AI assistant"</a></button>
+              data-translate="Anni"></a></button>
             </div>
         </div>
       </article>
@@ -301,7 +294,7 @@
     </div>
 
     <footer id="footer">
-      <p class="copyright">&copy;The Waleed~2024<a href="#"></a></p>
+      <p class="copyright">&copy;The Waleed~2025<a href="#"></a></p>
     </footer>
   </div>
 
@@ -312,10 +305,12 @@
   <script src="assets/js/browser.min.js"></script>
   <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js"></script>
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/i18n.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/animation.js"></script>
-  <script src="assets/js/skills_animation.js" async></script>
-  <script src="assets/js/gallery_animation.js" async></script>
+  <script src="assets/js/skills_animation.js"></script>
+  <script src="assets/js/gallery_animation.js"></script>
 
 </body>
 </html>
